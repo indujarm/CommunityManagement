@@ -5,10 +5,11 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class TokenValidationService {
+
     private final RestTemplate restTemplate = new RestTemplate();
 
     public boolean validateToken(String token) {
-        String url = "http://localhost:8080/auth/validate-token"; // Adjust Module 1 URL
+        String url = "http://localhost:8080/auth/validate-token"; // Assuming Module 1 is at localhost:8080
         return restTemplate.postForObject(url, token, Boolean.class);
     }
 }
