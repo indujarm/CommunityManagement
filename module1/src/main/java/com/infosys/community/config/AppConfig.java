@@ -20,8 +20,8 @@ public class AppConfig {
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers("/api/**").authenticated()
-                        .requestMatchers(HttpMethod.POST, "/api/societies/**", "/api/flats/**", "/api/residents/**").hasRole("ADMIN")
-                        .requestMatchers(HttpMethod.PUT, "/api/societies/**", "/api/flats/**", "/api/residents/**").hasRole("ADMIN")
+//                        .requestMatchers(HttpMethod.POST, "/api/societies/**", "/api/flats/**", "/api/residents/**").hasRole("ADMIN")
+//                        .requestMatchers(HttpMethod.PUT, "/api/societies/**", "/api/flats/**", "/api/residents/**").hasRole("ADMIN")
 
                         .anyRequest().permitAll())
                 .addFilterBefore(new Validator(), BasicAuthenticationFilter.class)
