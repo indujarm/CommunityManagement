@@ -12,7 +12,7 @@ public class JwtProvider {
     private static SecretKey key= Keys.hmacShaKeyFor(JwtConstant.SECRET_STRING.getBytes());
     public static String generateToken(Authentication auth){
         String jwt= Jwts.builder()
-                .setIssuer("UshaSri").setIssuedAt(new Date())
+                .setIssuer("community").setIssuedAt(new Date())
                 .setExpiration(new Date(new Date().getTime()+86400000))
                 .claim("email",auth.getName())
                 .signWith(key)
