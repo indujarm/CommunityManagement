@@ -10,6 +10,11 @@
         <option value="$PROJECT_DIR$/societymanagementservice/pom.xml" />
         <option value="$PROJECT_DIR$/ComplaintAndRequestService/pom.xml" />
         <option value="$PROJECT_DIR$/NoticeboardEventsPostService/pom.xml" />
+        <option value="$PROJECT_DIR$/module1/pom.xml" />
+        <option value="$PROJECT_DIR$/module2/pom.xml" />
+        <option value="$PROJECT_DIR$/module3/pom.xml" />
+        <option value="$PROJECT_DIR$/module4/pom.xml" />
+        <option value="$PROJECT_DIR$/module5/pom.xml" />
       </list>
     </option>
   </component>

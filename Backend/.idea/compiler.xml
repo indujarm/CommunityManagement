@@ -7,23 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="NoticeboardEventsPostService" />
-        <module name="complaintandrequestservice" />
-        <module name="BillingAndPaymentService" />
-        <module name="societymanagementservice" />
+        <module name="module5" />
+        <module name="module4" />
+        <module name="module1" />
         <module name="eureka" />
-        <module name="authentication" />
+        <module name="module3" />
+        <module name="module2" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="BillingAndPaymentService" options="-parameters" />
-      <module name="NoticeboardEventsPostService" options="-parameters" />
-      <module name="authentication" options="-parameters" />
-      <module name="complaintandrequestservice" options="-parameters" />
       <module name="eureka" options="-parameters" />
-      <module name="societymanagementservice" options="-parameters" />
+      <module name="module1" options="-parameters" />
+      <module name="module2" options="-parameters" />
+      <module name="module3" options="-parameters" />
+      <module name="module4" options="-parameters" />
+      <module name="module5" options="-parameters" />
     </option>
   </component>
 </project>
